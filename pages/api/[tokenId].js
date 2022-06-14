@@ -3,7 +3,7 @@
 export default function handler(req, res) {
   const tokenId = req.query.tokenId;
 
-  const image_url = "https://raw.githubusercontent.com/nas11ai/NFT-Collection/main/my-app/public/itkcryptodevs/";
+  const image_url = "https://raw.githubusercontent.com/nas11ai/NFT-Collection-Website/tree/main/public/itkcryptodevs/";
 
   req.status(200).json({
     name: "Cahyo Token" + tokenId,
